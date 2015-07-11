@@ -1,0 +1,779 @@
+[2015-06-29 12:01:39.956] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry '1040837223@qq.com' for key 'PRIMARY'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry '1040837223@qq.com' for key 'PRIMARY'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:15:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 17:14:01.019] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 17:14:01.075] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 17:15:00.971] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 17:15:01.030] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:37:13.974] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:37:13.985] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:39:44.768] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:39:44.791] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:42:53.716] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:42:53.741] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:43:30.425] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:43:30.607] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:44:46.392] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:44:46.403] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:46:29.834] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:46:29.869] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:47:46.152] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:47:46.192] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:50:24.987] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:52:40.992] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:53:37.767] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:54:41.219] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:55:03.940] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:55:14.157] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:56:08.164] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'cookie' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:58:38.656] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 19:59:24.798] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-06-29 20:00:01.494] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\activeDao.js:11:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)

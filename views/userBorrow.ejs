@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在借书籍</title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/userborrow.min.css">
+</head>
+<body>
+	<% include userTop %>
+	<div class="container-fluid results-box">
+		<div class="row">
+			<div class="col-xs-3 col-xs-offset-5 borrow">
+				在借书籍列表
+			</div>
+		</div>
+		<div class="row">
+	      <div class="col-xs-7 col-xs-offset-2 book-list">
+	        <table class="table table-bordered table-hover" id="results">
+	          <thead>
+	            <tr>
+	              <th>#</th>
+	              <th>书名</th>
+	              <th>作者</th>
+	              <th>编号</th>
+	              <th>标准书号</th>
+	              <th class="danger">借阅日期</th>
+	            </tr>
+	          </thead>
+	          <tbody>
+	          	<%
+	          		for(var i = 0;i<book.length;i++){
+	          	%>
+	          		<tr>
+	          			<td><%= i+1 %></td>
+	          			<td><%= book[i].name %></td>
+	          			<td><%= book[i].author %></td>
+	          			<td><%= book[i].lib_id %></td>
+	          			<td><%= book[i].isbn %></td>
+	          			<td><%= borrow[i].borrow_date.toLocaleDateString() %></td>
+	          		</tr>
+				<%
+	          		}
+	          	%>
+	          </tbody>
+	        </table>
+	      </div>
+	    </div>
+	</div>
+
+</body>
+</html>

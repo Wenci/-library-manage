@@ -1,0 +1,52 @@
+<% include adminHead %>
+<div class="col-xs-10 col-xs-offset-2 content">
+  <div class="row con-bar">
+    <div class="col-xs-5 col-xs-offset-3 con-title">
+      请在下面输入添加管理员的信息
+    </div>
+  </div>
+  <div class="row user-row">
+    <div class="col-xs-10">
+      <form action="./" class="form-horizontal" id="user-form">
+        <div class="form-group">
+            <label for="account" class="col-xs-2 col-xs-offset-3 control-label">新加管理员账号</label>
+          <div class="col-xs-4">
+            <input type="text" class="form-control" id="account" name="account" placeholder="账号" value="">
+          </div>
+          <label id="account-info" for="wrong-info" class="wrong-info col-xs-3 control-label">*错误提示</label>
+        </div>
+        <div class="form-group">
+          <label for="password" class="col-xs-2 col-xs-offset-3 control-label">新加管理员密码</label>
+          <div class="col-xs-4">
+            <input type="password" class="form-control" id="password" name="password" placeholder="密码" value="">
+          </div>
+          <label for="wrong-info" class="wrong-info col-xs-3 control-label">*错误提示</label>
+        </div>
+        <div class="form-group">
+            <label for="sort" class="col-xs-2 col-xs-offset-3 control-label">分类</label>
+          <div class="col-xs-4">
+            <select class="form-control" id="right" name="right">
+               <option value="0">超级管理员</option>
+               <option value="1">普通管理员</option>
+            </select>
+          </div>
+          <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+        </div>
+        <div class="form-group">
+          <label for="mypassword" class="col-xs-2 col-xs-offset-3 control-label">你的密码</label>
+          <div class="col-xs-4">
+            <input type="password" class="form-control" id="mypassword" name="mypassword" placeholder="密码" value="">
+          </div>
+          <label for="wrong-info" class="wrong-info col-xs-3 control-label">*错误提示</label>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-offset-5 col-xs-4">
+            <button type="submit" class="btn btn-info add-new-user" id="commit">添加新用户</button>
+          </div>
+        </div>            
+      </form>
+    </div>
+  </div>
+</div>
+
+<% include adminFooter %>

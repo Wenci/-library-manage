@@ -1,0 +1,22 @@
+.search-group{
+	padding-left: 15px;
+	margin-top: 20px;
+}
+.book-list{
+	margin-top: 30px;
+}
+.page-nav{
+	float: right;
+}
+.page-nav:after{
+	content: '.0';
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+#drop .active{
+	display: none;
+}
+#page-row{
+	display: none;
+}

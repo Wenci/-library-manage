@@ -1,0 +1,1628 @@
+[2015-07-10 03:04:55.557] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:05:50.637] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:06:52.412] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:07:35.049] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:07:50.772] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:09:00.158] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:09:16.856] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:09:55.547] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:88:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:10:41.201] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:88:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 03:11:44.016] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'daasd' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'daasd' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:88:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:48:56.787] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,5' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,5' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:48:56.794] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,5' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,5' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:48:56.813] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,5' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,5' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:48:56.836] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,5' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,5' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:55:30.053] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'G1234' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'G1234' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 12:55:34.172] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'G1234' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'G1234' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:07:43.141] [ERROR] err - { [Error: ER_NO_SUCH_TABLE: Table 'librarytest.admin' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'librarytest.admin' doesn't exist
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\adminDao.js:48:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:07:48.053] [ERROR] err - { [Error: ER_NO_SUCH_TABLE: Table 'librarytest.admin' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'librarytest.admin' doesn't exist
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\adminDao.js:48:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:09:02.092] [ERROR] err - { [Error: ER_NO_SUCH_TABLE: Table 'librarytest.user' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'librarytest.user' doesn't exist
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:69:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:09:18.449] [ERROR] err - { [Error: ER_NO_SUCH_TABLE: Table 'librarytest.user' doesn't exist]
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+Error: ER_NO_SUCH_TABLE: Table 'librarytest.user' doesn't exist
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:69:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:51:07.346] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:206:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:51:36.023] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'asdsada' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'asdsada' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:206:15
+    at Handshake.onConnect (f:\library-management\node_modules\mysql\lib\Pool.js:59:7)
+    at Handshake.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:54:29.897] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', { 			type: 'lib_id', 			value: value 		}, function(data, textStatus, xhr) { 	' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', { 			type: 'lib_id', 			value: value 		}, function(data, textStatus, xhr) { 	' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:206:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 13:54:32.511] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', { 			type: 'lib_id', 			value: value 		}, function(data, textStatus, xhr) { 	' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', { 			type: 'lib_id', 			value: value 		}, function(data, textStatus, xhr) { 	' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:206:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 14:38:48.771] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'borr_num' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'borr_num' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:108:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 14:53:24.273] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_3` FOREIGN KEY (`borrow_date`) REFERENCES `onborrow` (`borrow_date`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_3` FOREIGN KEY (`borrow_date`) REFERENCES `onborrow` (`borrow_date`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:51:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 14:59:16.563] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry '170' for key 'PRIMARY'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry '170' for key 'PRIMARY'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\borrowRecordDao.js:12:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 15:00:51.583] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:127:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 15:00:53.682] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:127:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 15:00:54.641] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:127:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 15:00:55.299] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\userDao.js:127:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 15:00:55.790] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry '170' for key 'PRIMARY'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry '170' for key 'PRIMARY'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\borrowRecordDao.js:12:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 16:18:03.072] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'return_rdate' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'return_rdate' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\borrowRecordDao.js:12:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 16:18:03.580] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'return_rdate' in 'field list']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'return_rdate' in 'field list'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\borrowRecordDao.js:12:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 20:39:07.906] [ERROR] err - { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  fatal: true }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at Protocol.handshake (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (f:\library-management\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (f:\library-management\node_modules\mysql\lib\Pool.js:45:23)
+    at Object.admin.queryByAccount (f:\library-management\dao\adminDao.js:43:8)
+    at f:\library-management\routes\adminLogin.js:20:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+[2015-07-10 23:45:01.341] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:01.464] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:01.613] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:01.774] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:01.946] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:02.094] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:02.246] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:03.255] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:45:08.505] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'asdsad' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:03.186] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:03.364] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:03.536] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:03.720] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:03.877] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:04.041] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:04.738] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:05.550] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:06.302] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:07.103] [ERROR] err - { [Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'] code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 }
+Error: ER_DUP_ENTRY: Duplicate entry 'ADSA' for key 'lib_id_index'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:13:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:20.558] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:20.716] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:20.720] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:20.739] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:20.758] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:21.942] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:26.028] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:29.554] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:33.449] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-10 23:47:34.935] [ERROR] err - { [Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))]
+  code: 'ER_ROW_IS_REFERENCED_2',
+  errno: 1451,
+  sqlState: '23000',
+  index: 0 }
+Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`librarytest2`.`borrow_record`, CONSTRAINT `borrow_record_ibfk_2` FOREIGN KEY (`book_id`) REFERENCES `book` (`id`))
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:107:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)

@@ -1,0 +1,25 @@
+
+.con-bar{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.con-title{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.form-group .wrong-info{
+	text-align: left;
+	color: red;
+	display: none;
+}
+#user-form .form-group{
+	margin-top: 35px;
+}
+
+.add-new-user{
+	width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>借阅历史</title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/userborrowrecord.min.css">
+</head>
+<body>
+	<% include userTop %>
+	<div class="container-fluid record-title">
+		<div class="row">
+			<div class="col-xs-2 col-xs-offset-5">
+				借阅历史
+			</div>
+		</div>
+	</div>
+	<div class="cotainer-fluid record-box">
+		<div class="row record-box-row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<div class="row">
+			      <div class="col-xs-12 book-list">
+			        <table class="table table-bordered table-hover" id="results">
+			          <thead>
+			            <tr>
+			              <th>#</th>
+			              <th>书名</th>
+			              <th>作者</th>			        
+			              <th>编号</th>
+			              <th>标准书号</th>
+			              <th>借阅日期</th>
+			              <th>归还日期</th>
+			            </tr>
+			          </thead>
+			          <tbody>
+			          </tbody>
+			        </table>
+			      </div>
+			    </div>
+			    <div class="row" id="page-row">
+			      <div class="col-xs-12">
+			         <nav class="page-nav">
+			          <ul class="pagination" id="pagination">
+			            <li id="pre-page">
+			              <a href="javascript:void(0)" aria-label="Previous">
+			                <span aria-hidden="true">上一页</span>
+			              </a>
+			            </li>
+			            <li id="page-num"><a href="javascript:void(0)">1</a></li>
+			            <li id="next-page">
+			              <a href="javascript:void(0)" aria-label="Next">
+			                <span aria-hidden="true">下一页</span>
+			              </a>
+			            </li>
+			          </ul>
+			        </nav>
+			      </div>
+			    </div>   				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../build/components/layer/src/layer.js"></script>
+	<script type="text/javascript" src="../build/js/borrowrecord.min.js"></script>
+
+</body>
+</html>

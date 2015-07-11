@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../build/css/admin.min.css">
+  <link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+  <% if(typeof(css) != 'undefined'){
+    for(var i = 0;i<css.length;i++){
+  %>
+      <link rel="stylesheet" type="text/css" href="../build/<%= css[i] %>">
+    <%}}%>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="col-xs-12 content">
+      <div class="row con-bar">
+        <div class="col-xs-12 con-title">
+          请在下面修改新图书信息
+        </div>
+      </div>
+      <div class="row book-row">
+        <div class="col-xs-12">
+          <form action="" class="form-horizontal" id="book-form" data-id="<%= book.id %>">
+            <div class="form-group">
+                <label for="bookname" class="col-xs-2 col-xs-offset-2 control-label">书名</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="name" name="name" value="<%= book.name %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="author" class="col-xs-2 col-xs-offset-2 control-label">作者</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="author" name="author" value="<%= book.author %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="sort" class="col-xs-2 col-xs-offset-2 control-label">分类</label>
+              <div class="col-xs-4">
+                <select class="form-control" id="sort" name="sort">
+                  <% for(var i = 0;i < sort.length;i++){ %>
+                       <option value="<%= sort[i].id %>" <% if(sort[i].id === book.sort_id){ %>
+                                <%=  "selected='selected'" %>
+                        <% } %>
+                         >
+                       <%= sort[i].name %>
+                       </option>
+                    <% } %>
+                </select>
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="num" class="col-xs-2 col-xs-offset-2 control-label">数量</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="num" name="num" value="<%= book.num %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="press" class="col-xs-2 col-xs-offset-2 control-label">出版社</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="press" name="press" value="<%= book.press %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="libId" class="col-xs-2 col-xs-offset-2 control-label">书籍编号</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="libId" name="libId" value="<%= book.lib_id %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+                <label for="isbn" class="col-xs-2 col-xs-offset-2 control-label">标准书号(ISBN)</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="isbn" name="isbn" value="<%= book.isbn %>">
+              </div>
+              <label for="wrong-info" class="wrong-info col-xs-2 control-label">*错误提示</label>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-offset-4 col-xs-4">
+                <button type="submit" class="btn btn-info add-new-book" id="commit">修改图书</button>
+              </div>
+            </div>            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<% if(typeof js != "undefined"){ 
+  for(var i = 0; i<js.length;i++){
+  %>
+
+  <script type="text/javascript" src="../build/<%= js[i] %>"></script>
+
+<%}}%>
+</body>
+</html>

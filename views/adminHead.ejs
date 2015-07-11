@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= title %></title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/admin.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+  <% if(typeof(css) != 'undefined'){
+    for(var i = 0;i<css.length;i++){
+  %>
+      <link rel="stylesheet" type="text/css" href="../build/<%= css[i] %>">
+    <%}}%>
+</head>
+<body>
+	<div class="container-fluid top-bar">
+		<div class="row top">
+			<div class="col-xs-2 title">
+				图书管理中心
+			</div>
+      <div class="col-xs-2 home">
+        <i class="icon-home icon-large"></i>
+        <span><a href="./panel">返回首页</a></span>
+      </div>
+			<div class="col-xs-offset-5 col-xs-1 user">
+				<i class="icon-user icon-large"></i>
+				<span class="user-name">管理员</span>
+			</div>
+      <div class="col-xs-1 change-pass">
+        <i class="icon-user icon-edit"></i>
+        <a href="./changepass">修改密码</a>
+      </div>
+			<div class="col-xs-1 exit">
+				<a href="./logout">
+          <i class="icon-signout icon-large"></i>
+          <span>退出</span>    
+        </a>
+			</div>
+		</div>
+	</div>
+  <div class="container-fluid article">
+    <div class="row">
+      <div class="col-xs-2 nav">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="l-nav">
+            <% var count = 1;%>
+              <li <%if(typeof active != "undefined"){
+                if (count++ == active) {%>
+                    class="<%= 'active' %>"
+                <%}}%>
+                >
+                <a href="./addbook">
+                  <i class="icon-plus"></i>
+                  <span>添加图书</span>
+                </a>
+              </li>
+              <li <%if(typeof active != "undefined"){
+                if (count++ == active) {%>
+                    class="<%= 'active' %>"
+                <%}}%>
+                >
+                <a href="./findbook">
+                  <i class="icon-search"></i>
+                  <span>查找图书</span>
+                </a>
+              </li>
+              <li <%if(typeof active != "undefined"){
+                if (count++ == active) {%>
+                    class="<%= 'active' %>"
+                <%}}%>
+                >
+                <a href="./editbook">
+                  <i class="icon-edit"></i>
+                  <span>编辑图书</span>
+                </a>
+              </li>
+              <li <%if(typeof active != "undefined"){
+                if (count++ == active) {%>
+                    class="<%= 'active' %>"
+                <%}}%>
+                >
+                <a href="./returnbook">
+                  <i class="icon-ok"></i>
+                  <span>归还图书</span>
+                </a>
+              </li>
+              <li <%if(right!=0){%>style="display:<%= 'none;' %>"<%}%><%if(typeof active != "undefined"){
+                if (count++ == active) {%>
+                    class="<%= 'active' %>"
+                <%}}%>
+                >
+                <a href="javascript:void(0)" id="manage">
+                  <i class="icon-group"></i>
+                  <span>管理管理员</span>
+                  <div class="arrow">
+                  <i class="icon-angle-right icon-large" id="manage-right-ico"></i>
+                  </div>
+                </a>
+                <ul class="left-nav-second" id="left-nav-second" style="display:none">
+                  <li <%if(typeof active != "undefined"){
+                    if (active ==="1+1") {%>
+                        class="<%= 'active' %>"
+                    <%}}%>
+                    >
+                    <a href="./addadmin">
+                      <i class="icon-plus"></i>
+                      <span>添加管理员</span>
+                    </a>
+                  </li>
+                  <li <%if(typeof active != "undefined"){
+                    if (active ==="1+2") {%>
+                        class="<%= 'active' %>"
+                    <%}}%>
+                    >
+                    <a href="./deladmin">
+                      <i class="icon-remove"></i>
+                      <span>删除管理员</span>
+                    </a>
+                  </li>
+                </ul>
+                <script type="text/javascript">
+                window.onload = function(){
+                  $("#manage").click(function(event) {
+                    //console.log($("#left-nav-second:hidden").length);
+                    if($("#left-nav-second:hidden").length>0){
+                      $("#left-nav-second").css('display', 'block');
+                      $("#manage-right-ico").removeClass('icon-angle-right');
+                      $("#manage-right-ico").addClass('icon-angle-down');
+                    }else{
+                      $("#left-nav-second").css('display', 'none');
+                      $("#manage-right-ico").removeClass('icon-angle-down');
+                      $("#manage-right-ico").addClass('icon-angle-right');
+                    }
+                  });
+                }
+                </script>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>

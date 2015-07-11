@@ -1,0 +1,145 @@
+body,html{
+	height: 100%;
+}
+.top-bar{
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+.top{
+	height: 35px;
+	background: #2e3740;
+	line-height: 35px;
+}
+.top .title{
+	color: #54ab80;
+	font-weight: 600;
+	font-size: 16px;
+	border-right: 1px solid #202529;
+}
+.home{
+	color: #54ab80;
+	font-size: 16px;
+	font-weight: 600;
+}
+.home a{
+	color: #54ab80;
+}
+.home:hover{
+	color: #fff;
+
+}
+.home:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.change-pass,.user,.exit{
+	color: #54ab80;
+	font-weight: 600;
+	cursor: pointer;
+}
+.user{
+	text-align: right;
+}
+.change-pass:hover,.user:hover,.exit:hover{
+	color:#fff;
+}
+.user>a,.change-pass>a,.exit>a{
+	font-weight: 600;
+	color: #54ab80;
+	text-decoration: none;
+}
+.exit>a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.user-name{
+	padding-left: 7px;
+}
+
+.change-pass:hover>a{
+	color: #fff;
+}
+.article{
+	padding-top: 35px;
+}
+.nav{
+	color:#bbbfcb;
+	background: #2b3541;
+	position: fixed;
+	height: 100%;
+	z-index: 999;
+}
+.nav>.row>.col-xs-12{
+	padding-right: 0;
+}
+.nav .l-nav{
+	list-style: none;
+	font-size: 14px;
+	padding: 0;
+	margin:0;
+}
+.l-nav>li{
+	height: 45px;
+	line-height: 45px;
+	background: #2b3541;
+	cursor: pointer;
+}
+.l-nav>li.active{
+	background: #212831;
+	box-shadow: 1px 1px 3px #000;
+	position: relative;
+	z-index: 88;
+}
+.l-nav>li>a{
+	padding-left: 15px;
+	color:#bbbfcb;
+}
+.l-nav>li>a{
+	color:#fff;
+	text-decoration: none;
+	display: block;
+}
+.l-nav>li:hover{
+	background: #212831;
+	box-shadow: 1px 1px 3px #000;
+	position: relative;
+	z-index: 99;
+}
+.l-nav>li>a>span{
+	padding-left: 7px;
+}
+.arrow{
+	float:right;
+	margin-right:25px;
+}
+.left-nav-second{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 14px;
+	width: 100%;
+}
+.left-nav-second>li:hover{
+	background: #212831;
+	box-shadow: 1px 1px 3px #000;
+	position: relative;
+	z-index: 99;
+}
+.left-nav-second>li.active{
+	background: #212831;
+	box-shadow: 1px 1px 3px #000;
+	position: relative;
+	z-index: 88;
+}
+
+.left-nav-second a{
+	display: block;
+	color: #fff;
+	padding-left: 30px;
+}
+
+.left-nav-second a:hover{
+	text-decoration: none;
+}

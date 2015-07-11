@@ -1,0 +1,1672 @@
+[2015-06-30 09:57:26.148] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:26.161] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:27.056] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:27.171] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:35.980] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:36.003] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:36.676] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:57:36.720] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:52.146] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:52.760] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:52.784] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:53.138] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:53.580] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:58:53.614] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:03.456] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:03.595] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:04.278] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:04.306] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:22.476] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:22.648] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:23.087] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:23.129] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:55.928] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:55.998] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:56.105] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:56.555] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 09:59:56.611] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:01:49.100] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:01:49.177] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:01:49.284] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:01:49.902] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:01:49.957] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:02:03.402] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:02:03.458] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:02:03.544] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:02:04.028] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:02:04.071] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:03:52.010] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:03:52.106] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:03:52.257] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:03:52.874] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:03:52.932] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:05:41.282] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:05:41.482] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:05:42.008] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:05:42.056] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:28.207] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:28.245] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:28.435] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:29.080] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:29.097] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:37.193] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:37.236] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:37.355] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:37.932] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:37.943] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:41.888] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:41.928] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:42.017] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:42.450] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:42.463] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:54.225] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:54.266] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:54.362] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:54.790] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:07:54.801] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:15.005] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:15.157] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:15.559] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:15.573] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:28.291] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1129 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:28.461] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:28.756] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:28.767] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:34.374] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:34.513] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:34.939] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:34.974] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1129 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:43.888] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:43.891] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:44.042] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:44.431] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:44.461] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:46.081] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:46.200] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:46.581] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:08:46.624] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:15.347] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:15.356] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:25.375] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:25.382] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:25.630] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:26.137] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:26.187] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:46.434] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:46.444] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:46.879] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:47.121] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:47.635] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:47.677] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:56.339] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:56.397] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:56.515] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:57.047] [INFO] all - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:09:57.107] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:05.251] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:05.262] [INFO] all - undefined - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:05.442] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:05.956] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:06.017] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:12.618] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:31.098] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:31.699] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:32.396] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:33.004] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:33.406] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:34.153] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 302 35 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:34.187] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:34.780] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:35.760] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at Immediate.next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (f:\library-management\node_modules\express\lib\router\index.js:603:15)
+    at Immediate.immediate._onImmediate (timers.js:409:16)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)
+[2015-06-30 10:11:35.768] [INFO] all - ::1 - - "GET /favicon.ico HTTP/1.1" 404 1082 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:36.571] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:36.920] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:54.646] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1124 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:54.926] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:56.148] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1124 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:56.574] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:11:58.133] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:12:43.383] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:12:43.579] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:14:51.922] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:14:52.282] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:15:46.549] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:15:46.744] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:15:52.863] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:15:53.041] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:16:15.796] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\post\register.js:24:23
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 10:16:15.803] [INFO] all - ::1 - - "POST /register HTTP/1.1" 500 1135 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:16:15.964] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/register" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:18:14.544] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\post\register.js:25:23
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 10:18:14.573] [INFO] all - ::1 - - "POST /register HTTP/1.1" 500 1135 "http://localhost:3000/register" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:18:14.785] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/register" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:18:24.728] [INFO] all - ::1 - - "POST /register HTTP/1.1" 200 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:19:04.254] [INFO] all - ::1 - - "POST /register HTTP/1.1" 200 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:19:21.138] [INFO] all - ::1 - - "POST /register HTTP/1.1" 200 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:20:38.021] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1124 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:20:38.208] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 10:20:39.441] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:02.399] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:02.683] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:18.043] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1124 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:18.211] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:29.509] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:13:29.720] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:14:18.621] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:14:18.788] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:16:30.323] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:16:30.523] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:20:10.976] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1124 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:20:11.151] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:21:36.468] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:21:37.137] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:25.639] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:25.828] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:30.009] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:30.157] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:31.794] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:24:31.804] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:24:32.018] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:32:50.352] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:32:50.379] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:32:50.612] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:34:07.264] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:34:07.327] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:34:07.623] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:34:09.927] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:34:09.933] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:34:10.075] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:13.527] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:13.566] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:13.751] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:19.501] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:19.509] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:19.648] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:40.201] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:40.235] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:40.442] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:46.762] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:46.790] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:46.796] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:46.805] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:46.934] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:50.411] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:35:50.415] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:35:50.550] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:36:22.823] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:36:22.852] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:36:23.021] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:36:42.036] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:36:42.103] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:36:42.333] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:37:19.726] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:37:19.756] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:37:19.923] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:37:55.341] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:37:55.366] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:37:55.536] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:02.760] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:38:02.796] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:02.948] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:07.301] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:38:07.327] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:07.452] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:29.153] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:38:29.186] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:29.368] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:43.989] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:38:44.019] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:38:44.145] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:39:05.484] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:39:05.512] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:39:05.704] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:39:15.428] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:39:15.456] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:39:15.579] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:27.943] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:40:27.965] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:27.974] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:40:27.982] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:28.143] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:34.929] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:40:34.953] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:35.086] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:51.312] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:40:51.342] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:51.498] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:56.792] [WARN] all - [TypeError: undefined is not a function]
+TypeError: undefined is not a function
+    at f:\library-management\routes\admin.js:12:11
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 13:40:56.801] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1272 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:40:56.952] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:41:58.049] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:41:58.273] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:42:13.800] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:42:13.973] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:42:48.515] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 13:44:17.580] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:06:18.365] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:06:18.391] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:08:24.301] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:08:24.343] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:08:36.017] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:08:36.058] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:11:15.095] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:11:15.139] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:11:40.909] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:11:40.951] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:13:09.326] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:11:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:13:09.374] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:14:30.150] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:12:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:14:30.183] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:15:08.443] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:12:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:15:08.452] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:15:49.898] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:12:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:15:49.901] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:16:27.459] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:16:27.664] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:16:29.136] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:16:39.079] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:18:13.358] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:12:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:18:13.363] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:28:09.619] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 302 35 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:28:09.629] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:28:40.933] [WARN] all - [TypeError: Not a string or buffer]
+TypeError: Not a string or buffer
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at Object.sha1Fn.getSha1 (f:\library-management\base\sha1.js:6:8)
+    at f:\library-management\routes\admin.js:12:21
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-06-30 14:28:40.938] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 500 1127 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:35:08.920] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 14:42:48.520] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 6 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 15:25:48.221] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 15:25:48.487] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 15:26:29.331] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 15:26:29.647] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:02:52.231] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:02:52.534] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:09.331] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:09.590] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:22.165] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:22.306] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:52.458] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:52.489] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:03:52.737] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:04:35.987] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:04:36.175] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:05:18.981] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:05:19.140] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:05:55.264] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 1130 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:05:55.466] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:05.652] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:05.792] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:09.030] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:09.168] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:21.401] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:21.565] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:30.207] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:06:30.209] [WARN] all - { [Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"]
+  view: 
+   { name: '/login.ejs',
+     root: 'f:\\library-management\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:555:17)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:43:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+[2015-06-30 19:07:26.694] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:07:26.709] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:07:26.711] [WARN] all - { [Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"]
+  view: 
+   { name: '/login.ejs',
+     root: 'f:\\library-management\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:555:17)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:43:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+[2015-06-30 19:09:04.216] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:09:04.223] [WARN] all - { [Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"]
+  view: 
+   { name: '/login.ejs',
+     root: 'f:\\library-management\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:555:17)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:43:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+[2015-06-30 19:09:23.322] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:09:23.322] [WARN] all - { [Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"]
+  view: 
+   { name: '/login.ejs',
+     root: 'f:\\library-management\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:555:17)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:43:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+[2015-06-30 19:12:27.298] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:12:27.322] [WARN] all - { [Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"]
+  view: 
+   { name: '/login.ejs',
+     root: 'f:\\library-management\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "/login.ejs" in views directory "f:\library-management\views"
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:555:17)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:43:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at next (f:\library-management\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (f:\library-management\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at f:\library-management\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+[2015-06-30 19:12:27.341] [INFO] all - ::1 - - "GET /login HTTP/1.1" 500 1401 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:12:27.693] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:02.365] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 126 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:14.874] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.244] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.262] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.271] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/js/test.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.277] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.321] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.360] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.404] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.408] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.423] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.428] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.448] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:13:15.465] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.307] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.712] [INFO] all - ::1 - - "GET /build/js/test.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.715] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.725] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.735] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.737] [INFO] all - ::ffff:127.0.0.1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.739] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.982] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.986] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.993] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:08.999] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:09.004] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:09.010] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:09.053] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:09.318] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:38.896] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.196] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.202] [INFO] all - ::1 - - "GET /build/js/test.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.204] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.208] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.210] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.214] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.400] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.405] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.413] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.427] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.439] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:14:39.455] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.392] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.851] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.857] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/js/test.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.884] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.888] [INFO] all - ::ffff:127.0.0.1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.891] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:32.894] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.156] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.160] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.173] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.178] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.181] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:15:33.191] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1313 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.243] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.624] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.627] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.632] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.638] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.641] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.839] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.841] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.851] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.864] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:17:01.871] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:19:56.943] [WARN] all - [Error: Can't set headers after they are sent.]
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (f:\library-management\node_modules\express\lib\response.js:700:10)
+    at ServerResponse.send (f:\library-management\node_modules\express\lib\response.js:154:12)
+    at fn (f:\library-management\node_modules\express\lib\response.js:934:10)
+    at View.exports.renderFile [as engine] (f:\library-management\node_modules\ejs\lib\ejs.js:353:10)
+    at View.render (f:\library-management\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:44:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+[2015-06-30 19:19:56.976] [WARN] all - [Error: Can't set headers after they are sent.]
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (f:\library-management\node_modules\express\lib\response.js:700:10)
+    at ServerResponse.send (f:\library-management\node_modules\express\lib\response.js:154:12)
+    at fn (f:\library-management\node_modules\express\lib\response.js:934:10)
+    at View.exports.renderFile [as engine] (f:\library-management\node_modules\ejs\lib\ejs.js:353:10)
+    at View.render (f:\library-management\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:44:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+[2015-06-30 19:19:57.196] [WARN] all - [Error: Can't set headers after they are sent.]
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (f:\library-management\node_modules\express\lib\response.js:700:10)
+    at ServerResponse.send (f:\library-management\node_modules\express\lib\response.js:154:12)
+    at fn (f:\library-management\node_modules\express\lib\response.js:934:10)
+    at View.exports.renderFile [as engine] (f:\library-management\node_modules\ejs\lib\ejs.js:353:10)
+    at View.render (f:\library-management\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:44:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+[2015-06-30 19:20:02.248] [WARN] all - [Error: Can't set headers after they are sent.]
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (f:\library-management\node_modules\express\lib\response.js:700:10)
+    at ServerResponse.send (f:\library-management\node_modules\express\lib\response.js:154:12)
+    at fn (f:\library-management\node_modules\express\lib\response.js:934:10)
+    at View.exports.renderFile [as engine] (f:\library-management\node_modules\ejs\lib\ejs.js:353:10)
+    at View.render (f:\library-management\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (f:\library-management\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (f:\library-management\node_modules\express\lib\response.js:938:7)
+    at f:\library-management\routes\post\login.js:44:6
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+[2015-06-30 19:20:32.326] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.711] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.725] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.728] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.732] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.742] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.831] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.834] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.836] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.849] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:32.858] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:41.577] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:41.989] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:42.020] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:42.032] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:42.038] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:42.039] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:42.042] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:42.042] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:42.050] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:42.051] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:42.063] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:43.990] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:44.320] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:44.323] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:44.325] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:44.330] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:44.334] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:44.338] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:44.342] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:44.346] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:44.348] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:44.352] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.233] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.545] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:55.549] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.551] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:55.557] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.559] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:55.563] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.565] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:55.569] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:55.570] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:20:55.574] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:57.589] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:20:57.954] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:09.936] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:10.250] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:10.253] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:10.255] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:10.260] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:10.263] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:10.266] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:10.267] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:10.269] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:10.273] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:10.282] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:53.883] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:54.201] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:54.209] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:54.212] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:54.215] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:54.217] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:54.225] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:54.228] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:54.231] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:21:54.238] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:21:54.255] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.129] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.390] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:37.395] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.396] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:37.401] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.404] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:37.407] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.408] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:37.414] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:37.420] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:37.424] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:41.047] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:41.054] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:22:41.063] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:22:41.066] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:23:05.584] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:23:05.589] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:23:05.862] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:27.530] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:27.534] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:27.742] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:46.518] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:46.602] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:46.872] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:48.590] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1240 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:49.051] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:49.059] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:49.061] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:49.066] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:49.068] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:49.075] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:49.080] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:49.086] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:24:49.087] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:24:49.090] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:26:25.902] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:66:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:26:25.963] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:26:26.495] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:39.788] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:40.122] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:27:40.141] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:40.143] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:27:40.149] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:40.156] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:27:40.161] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:40.162] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:27:40.169] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:27:40.171] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:27:40.176] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:10.984] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:11.419] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:31:11.423] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:11.426] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:31:11.431] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:11.435] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:31:11.438] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:11.442] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:31:11.446] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:11.446] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:65:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-06-30 19:31:11.450] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1191 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:13.331] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1130 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:13.694] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 200 129 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:21.328] [INFO] all - ::1 - - "GET /css/style.css?livereload=1435663881301 HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:43.864] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:43.925] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.534] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.550] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.556] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.558] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.559] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 302 40 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.739] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.746] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.815] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.820] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:31:44.842] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:01.560] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.023] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 200 1102 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.034] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 200 45315 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.040] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122540 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.044] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 200 84380 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.048] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 36816 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.480] [INFO] all - ::1 - - "GET /build/img/login_back.jpg HTTP/1.1" 200 145463 "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:02.925] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.map HTTP/1.1" 302 40 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:32:03.211] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:33:18.369] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:33:18.371] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:33:18.401] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.map HTTP/1.1" 302 40 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:33:18.422] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.316] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1240 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.662] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 200 1102 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.679] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122540 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.697] [INFO] all - ::1 - - "GET /public/img/user.jpg HTTP/1.1" 200 45315 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.711] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 200 84380 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:08.714] [INFO] all - ::1 - - "GET /build/components/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 36816 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:09.024] [INFO] all - ::1 - - "GET /build/img/login_back.jpg HTTP/1.1" 200 145463 "http://localhost:3000/build/css/logIn.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:09.353] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.map HTTP/1.1" 302 40 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:09.366] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-06-30 19:36:12.043] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"

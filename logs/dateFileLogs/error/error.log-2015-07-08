@@ -1,0 +1,883 @@
+[2015-07-08 02:12:47.504] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:12:47.534] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:12:58.251] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:12:58.256] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:14:12.091] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:14:12.096] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:18:02.095] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:18:02.100] [ERROR] err - { [Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause']
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+Error: ER_BAD_FIELD_ERROR: Unknown column 'way' in 'where clause'
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:20:01.864] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%4%5%'' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%4%5%'' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:20:01.876] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%4%5%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%4%5%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:20:19.797] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%3%4%5%'' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%3%4%5%'' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:56:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 02:20:19.834] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%3%4%5%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%3%4%5%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 10:57:54.173] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book WHERE id= '42'' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book WHERE id= '42'' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:165:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 20:32:25.754] [ERROR] err - { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  fatal: true }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at Protocol.handshake (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (f:\library-management\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (f:\library-management\node_modules\mysql\lib\Pool.js:45:23)
+    at Object.cookie.queryCookieByCookie (f:\library-management\dao\cookieDao.js:45:8)
+    at f:\library-management\routes\isLogin.js:13:12
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-07-08 21:17:29.258] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:17:33.595] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:17:38.421] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:17:39.545] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':account ORDER BY borrow_dateLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:18:53.885] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:20:04.076] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1040837223@qq.com'' ORDER BY borrow_dateLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1040837223@qq.com'' ORDER BY borrow_dateLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:20:57.616] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1040837223@qq.com'' ORDER BY borrow_date DESCLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1040837223@qq.com'' ORDER BY borrow_date DESCLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:21:32.744] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESCLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESCLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:21:56.264] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESCLIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESCLIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:22:15.840] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:22:47.735] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.comORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:23:09.096] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:23:28.161] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:23:49.606] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 21:24:02.755] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ORDER BY borrow_date DESC LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\onBorrowDao.js:75:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 22:49:42.871] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 22:49:42.886] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 22:49:42.914] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+[2015-07-08 22:49:42.923] [ERROR] err - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,20' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%j%i%'LIMIT 0,20' at line 1
+    at Query.Sequence._packetToError (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (f:\library-management\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\library-management\dao\bookDao.js:87:15
+    at Ping.onPing [as _callback] (f:\library-management\node_modules\mysql\lib\Pool.js:94:5)
+    at Ping.Sequence.end (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Ping.Sequence.OkPacket (f:\library-management\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (f:\library-management\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (f:\library-management\node_modules\mysql\lib\Connection.js:96:28)

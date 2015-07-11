@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>登陆</title>
+	<link rel="stylesheet" type="text/css" href="../build/css/logIn.min.css">
+	<link rel="stylesheet" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+</head>
+<body>
+	<div class="contents">
+		<div class="header">
+			<i class="icon-user"></i>&nbsp;用户登录
+		</div>
+		<hr class="hr1">
+		<div class="boder">
+			<form class="form-horizontal" id="login-form">
+				<div class="form-group">
+					<label for="account" class="col-sm-2 control-label">账号</label>
+					<div class="col-sm-7">
+					      <input type="text" class="form-control" id="account" placeholder="邮箱">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="account-info"></label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-sm-2 control-label">密码</label>
+					<div class="col-sm-7">
+					    <input type="password" class="form-control" id="password" placeholder="密码">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="password-info"></label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10 btns">
+					    <button type="submit" class="btn btn-default" id="logIn">登录</button>
+					    <a href="../register" class="btn btn-default btn-loca" id="registe">注册</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<hr class="hr2">
+		
+	</div>
+	<script type="text/javascript" src="../build/components/layer/src/layer.js"></script>
+	<script type="text/javascript" src="../build/js/login.min.js"></script>
+</body>
+</html>

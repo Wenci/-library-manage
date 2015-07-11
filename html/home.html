@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/home.min.css">
+</head>
+<body>
+	<div class="container-fluid top">
+		<div class="row">
+			<div class="col-xs-2">
+				<a href="/" class="title">图书馆在线系统</a>
+			</div>
+			<div class="col-xs-1 col-xs-offset-8 user">
+				<div class="user-col">
+					<span>
+						<img src="../build/img/user2.jpg" height="25" width="25" alt="">曾学兵
+					</span>
+					<ul class="user-list">
+						<li>
+							<i class="icon-user"></i>
+							<a href="#">个人中心</a>
+						</li>
+						<li>
+							<i class="icon-credit-card"></i>
+							<a href="#">借阅历史</a>
+						</li>
+						<li>
+							<i class="icon-file-alt"></i>
+							<a href="#">在借书籍</a>
+						</li>
+						<li>
+							<i class="icon-signout"></i>
+							<a href="#">退出</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div> 
+		</div>
+	</div>
+	<div class="search-box">
+		<form action="./get" class="search">
+			<div class="way" id="way">
+				 <div class="input-group-btn">
+		          <button type="button" class="btn btn-way dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="search-way">
+		            <span>书名搜索&nbsp;</span>
+		            <span class="caret"></span>
+		          </button>
+		          <ul class="dropdown-menu" id="drop">
+		            <li class="active">
+		            	<a href="javascript:void(0)">书名搜索</a>
+		            </li>
+		            <li>
+			            <a href="javascript:void(0)">编号搜索</a>
+		            </li>
+		          </ul>
+		        </div>
+			</div>
+			<input type="text" name="key" id="query" autocomplete="off" placeholder="请输入查找信息">
+			<a href="#" onclick="return false;" class="go"></a>
+		</form>
+		<ul class="search-hint" id="search-hint">
+			
+		</ul>
+	</div>
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../build/components/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../build/js/home.min.js"></script>
+</body>
+</html>

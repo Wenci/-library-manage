@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>注册</title>
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../build/css/registe.min.css">
+	<link rel="stylesheet" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/register.min.css">
+	
+</head>
+<body>
+	<div class="contents">
+		<div class="header">
+			<i class="icon-user"></i>&nbsp;用户注册
+		</div>
+		<hr class="hr1">
+		<div class="boder">
+			<form class="form-horizontal" id="register-form">
+				<div class="form-group">
+					<label for="account" class="col-sm-2 control-label">账号</label>
+					<div class="col-sm-7">
+					      <input type="email" class="form-control" name="account" id="account" placeholder="邮箱">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="account-info">* 必填</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-sm-2 control-label">密码</label>
+					<div class="col-sm-7">
+					    <input type="password" class="form-control" name="password" placeholder="密码" id="password">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="password-info">* 必填</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="col-sm-2 control-label">姓名</label>
+					<div class="col-sm-7">
+					    <input type="text" class="form-control" name="name" placeholder="姓名" id="name">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="name-info">* 必填</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="sex" class="col-sm-2 control-label">性别</label>
+					<label class="radio-inline adio-inline1">
+					  <input type="radio" name="sex" id="sex1" value="0" checked="checked"> 男
+					</label>
+					<label class="radio-inline adio-inline1">
+					  <input type="radio" name="sex" id="sex2" value="1"> 女
+					</label>
+				</div>
+				<div class="form-group">
+					<label for="phone" class="col-sm-2 control-label">电话</label>
+					<div class="col-sm-7">
+					    <input type="text" class="form-control" id="phone" placeholder="电话" name="phone">
+					</div>
+					<div class="col-sm-3">
+						<label for="message" class="control-label wrong" id="phone-info">* 必填</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-7">
+					    <button type="submit" class="btn btn-default" id="registe">注册</button>
+					    <a href="../login" class="btn btn-default btn-loca">返回</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<hr class="hr1">
+		
+	</div>
+	<script type="text/javascript" src="../build/components/layer/src/layer.js"></script>
+
+	<script type="text/javascript" src="../build/js/register.min.js"></script>
+</body>
+</html>

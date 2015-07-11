@@ -1,0 +1,49 @@
+<% include adminHead %>
+<div class="col-xs-10 col-xs-offset-2 content">
+    <div class="row">
+      <div class="col-xs-10">
+        <table class="table table-bordered table-hover" id="results">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>账号</th>
+              <th>类型</th>
+              <th class="danger">删除</th>
+            </tr>
+          </thead>
+          <tbody>
+          <%
+            for(var i =0;i<admin.length;i++){
+          %>
+            <tr>
+              <td><%= i %></td>
+              <td><%= admin[i].account %></td>
+              <td>
+                 <%
+                  if(admin[i].right==0){
+                 %>
+                <font color="red">
+                 <%= "超级管理员" %>
+                </font>
+                 <%   
+                  }else if(admin[i].right==1){
+                  %>
+                  <font color="blue">
+                    <%= "普通管理员" %>
+                  </font>
+                 <%
+                  }
+                  %>
+              </td>
+              <td>
+                <a href="javscript:void(0)" data-account="<%= admin[i].account %>" class="btn btn-danger btn-sm">删除</a>
+              </td>
+            </tr>
+          <%  }
+          %>
+          </tbody>
+        </table>
+      </div>
+    </div>  
+</div>
+<% include adminFooter %>

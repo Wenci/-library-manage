@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/userpersonal.min.css">
+</head>
+<body>
+	<% include userTop %>
+	<div class="container-fluid results-box person-box">
+		<div class="row">
+			<div class="col-xs-2 col-xs-offset-1">
+				<ul class="left-nav" id="left_nav">
+					<li class="active">个人资料</li>
+					<li>修改密码</li>
+				</ul>
+			</div>
+			<div class="col-xs-7">
+				<div class="row person-title" id="person-title">
+					个人信息
+				</div>
+				<!--个人信息-->
+				<div class="row" id="person-data">
+					<ul class="right-nav">
+						<li>
+							<div class="row">
+								<div class="contaner-fluid">
+									<div class="col-xs-3">
+										邮箱(用户名)
+									</div>
+									<div class="col-xs-6 col-xs-offset-1">
+										<%= user.account %>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="contaner-fluid">
+									<div class="col-xs-3">
+										姓名
+									</div>
+									<div class="col-xs-6 col-xs-offset-1">
+										<%= user.name %>
+									</div>
+									<div class="col-xs-1 col-xs-offset-1">
+										<a href="javascript:void(0)" class="edit">编辑</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="input">
+							<div class="contaner-fluid">
+								<div class="row">
+									<div class="col-xs-2">
+										姓名
+									</div>
+									<div class="col-xs-4 col-xs-offset-1">
+										<div class="form-group">
+										    <input type="text" class="form-control" id="name" placeholder="姓名">
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+										    <a href="javascript:void(0)" class="submit btn btn-default btn-sm" data-type="name">确定</a>
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+											<a href="javascript:void(0)" class="btn btn-default btn-sm" data-type="cancel">取消</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="contaner-fluid">
+								<div class="row">
+									<div class="col-xs-3">
+										性别
+									</div>
+									<div class="col-xs-6 col-xs-offset-1">
+										<%
+											var sex;
+											if(user.sex == 0){
+												sex = "男";
+											}else{
+												sex = "女";
+											}
+										%>
+										<%= sex %>
+									</div>
+									<div class="col-xs-1 col-xs-offset-1">
+										<a href="javascript:void(0)" class="edit">编辑</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="input">
+							<div class="contaner-fluid">
+								<div class="row">
+									<div class="col-xs-2">
+										性别
+									</div>
+									<div class="col-xs-4 col-xs-offset-1">
+										<div class="form-group">
+										    <label class="radio-inline adio-inline1">
+
+												  <input type="radio" name="sex" id="sex1" value="0" checked="checked"<%if(user.sex==0){%>
+																<%= "checked"%>		
+												  <%}%>> 男
+												</label>
+												<label class="radio-inline adio-inline1">
+												  <input type="radio" name="sex" id="sex2" value="1" <%if(user.sex==1){%>
+																<%= "checked" %>		
+												  <%}%>
+												  > 女
+												</label>
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+										    <a href="javascript:void(0)" class="submit btn btn-default btn-sm" data-type="sex" >确定</a>
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+											<a href="javascript:void(0)" class="btn btn-default btn-sm" data-type="cancel">取消</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="contaner-fluid">
+									<div class="col-xs-3">
+										电话号码
+									</div>
+									<div class="col-xs-6 col-xs-offset-1">
+										<%= user.phone %>
+									</div>
+									<div class="col-xs-1 col-xs-offset-1">
+										<a href="javascript:void(0)" class="edit">编辑</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="input">
+							<div class="contaner-fluid">
+								<div class="row">
+									<div class="col-xs-2">
+										电话号码
+									</div>
+									<div class="col-xs-4 col-xs-offset-1">
+										<div class="form-group">
+										    <input type="text" class="form-control" id="phone" placeholder="电话号码">
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+										    <a href="javascript:void(0)" class="submit btn btn-default btn-sm" data-type="phone" >确定</a>
+										</div>
+									</div>
+									<div class="col-xs-1">
+										<div class="form-group">
+											<a href="javascript:void(0)" class="btn btn-default btn-sm" data-type="cancel">取消</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+					<!-- 修改密码 -->
+				<div class="row" id="change-password">
+					<div class="form-horizontal">
+						  <div class="form-group">
+						    <label for="password" class="col-sm-2 control-label">当前密码</label>
+						    <div class="col-sm-8">
+						      <input type="password" class="form-control" id="old-pass" placeholder="当前密码">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="password" class="col-sm-2 control-label">新密码</label>
+						    <div class="col-sm-8">
+						      <input type="password" class="form-control" id="new-pass" placeholder="新密码">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <button type="submit" class="btn btn-default" id="submit-pass">确定</button>
+						    </div>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../build/components/layer/src/layer.js"></script>
+	<script type="text/javascript" src="../build/js/userpersonal.min.js"></script>
+
+</body>
+</html>

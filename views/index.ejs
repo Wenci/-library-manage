@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="../build/components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/components/awesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css/home.min.css">
+</head>
+<body>
+	<div class="container-fluid top">
+		<div class="row">
+			<div class="col-xs-2">
+				<a href="/" class="title">图书馆在线系统</a>
+			</div>
+			<div class="col-xs-1 col-xs-offset-8 user">
+				<div class="user-col">
+					<span>
+						<span>用户：</span>
+						<%= userName %>
+					</span>
+					<ul class="user-list">
+						<li>
+							<i class="icon-user"></i>
+							<a href="/user/personal">个人中心</a>
+						</li>
+						<li>
+							<i class="icon-credit-card"></i>
+							<a href="/user/borrowrecord">借阅历史</a>
+						</li>
+						<li>
+							<i class="icon-file-alt"></i>
+							<a href="/user/borrow">在借书籍</a>
+						</li>
+						<li>
+							<i class="icon-signout"></i>
+							<a href="/user/logout">退出</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div> 
+		</div>
+	</div>
+	<div class="search-box">
+		<form action="/userfindbook" method="get" class="search" id="search">
+			<div class="way" id="way">
+				 <div class="input-group-btn">
+		          <button type="button" class="btn btn-way dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="search-way">
+		            <span>书名搜索</span>
+		            <span class="caret"></span>
+		          </button>
+		          <ul class="dropdown-menu" id="drop">
+		            <li class="active">
+		            	<a href="javascript:void(0)">书名搜索</a>
+		            </li>
+		            <li>
+			            <a href="javascript:void(0)">编号搜索</a>
+		            </li>
+		          </ul>
+		        </div>
+			</div>
+			<input type="text" name="keyName" id="query" autocomplete="off" placeholder="请输入查找信息">
+			<a href="javascript:void(0)" class="go" id="go"></a>
+			<input type="hidden" name="way" id="inputway">
+			<input type="hidden" name="random" id="random">
+		</form>
+		<div class="search-hint" id="search-hint">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="contact">
+		<span id="contact-us">联系我们</span>
+		<script>
+		window.onload = function(){
+			$("#contact-us").click(function(event) {
+				alert("联系QQ号：1040837223");
+			});
+		}
+		</script>
+	</div>
+	<script type="text/javascript" src="../build/components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../build/components/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../build/js/home.min.js"></script>
+</body>
+</html>

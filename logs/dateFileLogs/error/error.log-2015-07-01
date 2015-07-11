@@ -1,0 +1,38 @@
+[2015-07-01 17:26:15.896] [ERROR] err - { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  fatal: true }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at Protocol.handshake (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (f:\library-management\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (f:\library-management\node_modules\mysql\lib\Pool.js:45:23)
+    at Object.cookie.queryCookieByCookie (f:\library-management\dao\cookieDao.js:45:8)
+    at f:\library-management\routes\isLogin.js:9:12
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+[2015-07-01 17:31:46.660] [ERROR] err - { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  fatal: true }
+Error: connect ECONNREFUSED
+    at exports._errnoException (util.js:746:11)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+    --------------------
+    at Protocol._enqueue (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at Protocol.handshake (f:\library-management\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (f:\library-management\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (f:\library-management\node_modules\mysql\lib\Pool.js:45:23)
+    at Object.cookie.queryCookieByCookie (f:\library-management\dao\cookieDao.js:45:8)
+    at f:\library-management\routes\isLogin.js:9:12
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)

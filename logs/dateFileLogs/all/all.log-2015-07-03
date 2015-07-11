@@ -1,0 +1,481 @@
+[2015-07-03 20:09:18.535] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:19.042] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:09:19.063] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.527] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.769] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 200 1427 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.803] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.805] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.806] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.807] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:31.808] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:32.026] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:32.105] [INFO] all - ::1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 - "http://localhost:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:37.724] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:09:37.733] [INFO] all - ::1 - - "GET /adminLogin HTTP/1.1" 404 1210 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:37.900] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:09:37.904] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/adminLogin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.506] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.688] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.703] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.707] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.712] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.715] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.724] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:42.885] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:44.873] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:44.900] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 200 6098 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:45.178] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:45.185] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 200 1119 "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:09:45.186] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:09.059] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:10.862] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:45:10.870] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:47.173] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:47.233] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1909 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.658] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.687] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.697] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.776] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.803] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:48.806] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:50.158] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:50.683] [INFO] all - ::1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 - "http://localhost:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:55.557] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:55.671] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:55.688] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 7 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:55.871] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1170 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:45:57.083] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:45:57.090] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:58:08.872] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1170 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 20:58:09.400] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:74:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 20:58:09.421] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:17.608] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:17.625] [INFO] all - ::ffff:127.0.0.1 - - "GET /login HTTP/1.1" 200 1909 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.036] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/logIn.min.css HTTP/1.1" 200 1427 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.048] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 200 22487 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.055] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122544 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.110] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 200 29216 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.120] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/js/login.js HTTP/1.1" 200 2488 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.127] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 200 84384 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.425] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 200 12443 "http://127.0.0.1:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 21:24:18.519] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572 "http://127.0.0.1:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:14:51.726] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:14:53.013] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 22:14:53.049] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:35.594] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:35.625] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1909 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.075] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.109] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.115] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.118] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.119] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.142] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.430] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:36.556] [INFO] all - ::1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 - "http://localhost:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.421] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.702] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.710] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.720] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.724] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.745] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:46.757] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:15:47.062] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:42.823] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.278] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.284] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.300] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.309] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.351] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:43.384] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:44.211] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:49.404] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:49.475] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:49.838] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:49.851] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:16:49.871] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:47.314] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:47.893] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:47.932] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:47.940] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:47.961] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:48.017] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:48.052] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:18:48.558] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.161] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.576] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.583] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.595] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.619] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.633] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.640] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:19:16.894] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:13.593] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.127] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.139] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.158] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.166] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.178] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.202] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:14.512] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:34.588] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:34.651] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:35.176] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:35.187] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:35.196] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:42.532] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:48.875] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:48.900] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:49.232] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:49.242] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:20:49.249] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:09.967] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:12.153] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:12.185] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:12.619] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:12.628] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:12.660] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:29.454] [INFO] all - ::ffff:127.0.0.1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:32.233] [INFO] all - ::ffff:127.0.0.1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:32.262] [INFO] all - ::ffff:127.0.0.1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:32.706] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:32.711] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:21:32.719] [INFO] all - ::ffff:127.0.0.1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:21.575] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:25.595] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:25.632] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:26.045] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:26.049] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:22:26.054] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:40.392] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:49.011] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:49.033] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:49.405] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:49.409] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:49.414] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:29:56.229] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:30:07.727] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:30:07.748] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:30:08.077] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:30:08.088] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:30:08.096] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:35.629] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:35.908] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:35.913] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:35.916] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:48.781] [INFO] all - ::1 - - "GET /admin HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:49.052] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:49.059] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:35:49.068] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:57.793] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.259] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.264] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.279] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.296] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.320] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.329] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 200 431 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.587] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:39:58.746] [INFO] all - ::1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 - "http://localhost:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.391] [INFO] all - ::1 - - "GET /233333/asdadasda/asda HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.403] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.775] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.781] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.791] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.797] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.808] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:56.816] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:40:57.091] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:57.399] [INFO] all - ::1 - - "GET /admin/test HTTP/1.1" 302 80 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:57.476] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:57.877] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:57.886] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:58.100] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:58.102] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:58.103] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:58.105] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:41:58.225] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.532] [INFO] all - ::1 - - "GET /admin/login/asdasda HTTP/1.1" 302 80 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.550] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.829] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.850] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.858] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.862] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.869] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:03.877] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:04.091] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.170] [INFO] all - ::1 - - "GET /admin/panel HTTP/1.1" 302 80 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.180] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.481] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.486] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.500] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.506] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.517] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.522] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:16.725] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:27.808] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:27.829] [INFO] all - ::1 - - "GET /admin/panel HTTP/1.1" 200 6098 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:28.216] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:28.229] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:42:28.243] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.559] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.580] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.948] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.952] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.969] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.974] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.981] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:45.986] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:46.304] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:50.070] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:43:51.779] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:58.837] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.284] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.290] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.291] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.308] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.313] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.322] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:54:59.561] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:55:12.954] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 22:55:12.997] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 7 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:12.625] [INFO] all - ::1 - - "GET /login HTTP/1.1" 200 1909 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.074] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.091] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.094] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.104] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.107] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.112] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:13.393] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.485] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.749] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.765] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.767] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.772] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.774] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.785] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:35.990] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:05:36.061] [INFO] all - ::1 - - "GET /build/components/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 - "http://localhost:3000/build/components/awesome/font-awesome.min.css" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.040] [INFO] all - ::1 - - "GET /test/999 HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.088] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.464] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.476] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.490] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.495] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.496] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.498] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:12:44.768] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:04.536] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:13:04.619] [INFO] all - ::1 - - "GET /login/dssaD HTTP/1.1" 404 1210 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:04.941] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:13:04.952] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/login/dssaD" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:18.811] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1170 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:18.987] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:13:18.991] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:32.703] [INFO] all - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:13:33.017] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:13:33.041] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:06.361] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 1170 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:06.682] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:14:06.697] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.098] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.143] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.401] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.407] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.421] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.427] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.433] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.437] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:19.677] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.223] [INFO] all - ::1 - - "GET /login/dADA HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.276] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.534] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.537] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.543] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.549] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.553] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.558] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:14:59.774] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.307] [INFO] all - ::1 - - "GET /admin/panel HTTP/1.1" 302 80 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.323] [INFO] all - ::1 - - "GET /admin/login HTTP/1.1" 200 1945 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.582] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.585] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.595] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.601] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.606] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.611] [INFO] all - ::1 - - "GET /build/js/adminLogin.js HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:05.833] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:10.206] [INFO] all - ::1 - - "POST /admin/login HTTP/1.1" 200 7 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:10.221] [INFO] all - ::1 - - "GET /admin/panel HTTP/1.1" 200 6098 "http://localhost:3000/admin/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:10.588] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:10.600] [INFO] all - ::1 - - "GET /build/css/admin.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:10.601] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/admin/panel" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:14.732] [INFO] all - ::1 - - "GET / HTTP/1.1" 302 68 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:14.748] [INFO] all - ::1 - - "GET /login HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.087] [INFO] all - ::1 - - "GET /build/css/logIn.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.096] [INFO] all - ::1 - - "GET /build/components/awesome/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.102] [INFO] all - ::1 - - "GET /build/components/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.106] [INFO] all - ::1 - - "GET /build/components/jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.112] [INFO] all - ::1 - - "GET /build/components/layer/src/layer.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.122] [INFO] all - ::1 - - "GET /build/js/login.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:15.347] [INFO] all - ::1 - - "GET /build/components/layer/src/skin/layer.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:16.871] [INFO] all - ::1 - - "POST /queryAccount HTTP/1.1" 200 6 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:16.892] [INFO] all - ::1 - - "POST /login HTTP/1.1" 200 7 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:17.161] [INFO] all - ::1 - - "GET / HTTP/1.1" 200 1170 "http://localhost:3000/login" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:17.584] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:15:17.597] [INFO] all - ::1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:24.701] [INFO] all - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 1170 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
+[2015-07-03 23:15:25.076] [WARN] all - { [Error: Not Found] status: 404 }
+Error: Not Found
+    at f:\library-management\app.js:80:15
+    at Layer.handle [as handle_request] (f:\library-management\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (f:\library-management\node_modules\express\lib\router\index.js:302:13)
+    at f:\library-management\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (f:\library-management\node_modules\express\lib\router\index.js:321:12)
+    at next (f:\library-management\node_modules\express\lib\router\index.js:261:10)
+    at f:\library-management\node_modules\express\lib\router\index.js:603:15
+    at next (f:\library-management\node_modules\express\lib\router\index.js:246:14)
+    at Function.proto.handle (f:\library-management\node_modules\express\lib\router\index.js:166:3)
+    at router (f:\library-management\node_modules\express\lib\router\index.js:35:12)
+[2015-07-03 23:15:25.092] [INFO] all - ::ffff:127.0.0.1 - - "GET /css/style.css HTTP/1.1" 404 1210 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"

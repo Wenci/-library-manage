@@ -1,0 +1,114 @@
+
+.top>.row{
+	padding: 0 2%;
+	height: 45px;
+	line-height: 45px;
+	background: #0767c8;
+	font-size: 18px;
+	color: #fff;
+	box-shadow: 1px 1px 5px #333;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+.top .title{
+	display: block;
+	padding-left: 50px;
+	background: url('../img/logo.png') no-repeat;
+	background-size: 40px auto;
+	background-position: 0px 7px;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.top .btn-group{
+	display: block;
+	padding: 0;
+}
+.user{
+	padding:0;
+	font-size: 14px;
+	font-weight: 400;
+}
+.user-col{
+	position: relative;
+	z-index: 99;
+	min-width: 120px;
+}
+.user-col:hover{
+	background: #075fb6;
+}
+.user-col:hover span{
+	background: #075fb6;
+}
+.user-col>span{
+	display: block;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.user-col>span>img{
+	margin-right: 5px;
+}
+.user-col:hover .user-list{
+	display: block;
+}
+.user-list{
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	z-index: 999;
+}
+.user-list>li{
+	padding-left: 15px;
+	border-top:1px solid #0D5AA5;
+	font-size: 14px;
+	height: 45px;
+}
+.user-list>li>a{
+	padding-left: 5px;
+}
+.user-list>li:hover{
+	background: #0267CC;
+}
+.user-list>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+.user-list>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+.record-title{
+	margin-top: 70px;
+	padding-bottom: 20px;
+}
+.record-box{
+	
+}
+.record-title{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.record-box-row{
+	margin:0;
+}
+.page-nav{
+	float: right;
+}
+.page-nav:after{
+	content: '.0';
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+#drop .active{
+	display: none;
+}
+#page-row{
+	display: none;
+}

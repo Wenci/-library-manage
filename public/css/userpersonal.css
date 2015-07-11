@@ -1,0 +1,174 @@
+
+body{
+	background: #f5f5f5;
+}
+.top>.row{
+	padding: 0 2%;
+	height: 45px;
+	line-height: 45px;
+	background: #0767c8;
+	font-size: 18px;
+	color: #fff;
+	box-shadow: 1px 1px 5px #333;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+.top .title{
+	display: block;
+	padding-left: 50px;
+	background: url('../img/logo.png') no-repeat;
+	background-size: 40px auto;
+	background-position: 0px 7px;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.top .btn-group{
+	display: block;
+	padding: 0;
+}
+.user{
+	padding:0;
+	font-size: 14px;
+	font-weight: 400;
+}
+.user-col{
+	position: relative;
+	z-index: 99;
+	min-width: 120px;
+}
+.user-col:hover{
+	background: #075fb6;
+}
+.user-col:hover span{
+	background: #075fb6;
+}
+.user-col>span{
+	display: block;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.user-col>span>img{
+	margin-right: 5px;
+}
+.user-col:hover .user-list{
+	display: block;
+}
+.user-list{
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	z-index: 999;
+}
+.user-list>li{
+	padding-left: 15px;
+	border-top:1px solid #0D5AA5;
+	font-size: 14px;
+	height: 45px;
+}
+.user-list>li>a{
+	padding-left: 5px;
+}
+.user-list>li:hover{
+	background: #0267CC;
+}
+.user-list>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+.user-list>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.person-box{
+	margin-top: 75px;
+}
+.left-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	box-shadow: 0 0 3px #333;
+
+}
+.left-nav>li{
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.left-nav>li.active{
+	background: #0767c8;
+	color: #fff;
+}
+.left-nav>li:hover{
+	background: #4A88C7;
+	color: #fff;
+}
+
+.person-title{
+	padding-left: 5px;
+	border-bottom: 2px solid #0767c8;
+	font-size: 14px;
+	font-weight: 600;
+	height: 45px;
+	line-height: 45px;
+}
+
+.right-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	margin-top: 10px
+}
+.right-nav>li{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	background: #fff;
+	font-weight: 600;
+	border:1px solid #e7e7e7;
+	cursor: pointer;
+}
+.right-nav>li:hover{
+	background: #efefef;
+}
+
+.edit{
+	color: #0767c8;
+}
+.right-nav>li:hover .edit{
+	color:#333;
+	text-decoration: none;
+}
+.right-nav>li .row{
+	padding-left: 10px;
+	padding-right:10px;
+}
+.right-nav li input{
+	height: 30px;
+ 	margin-top: 5px;
+}
+.input{
+	display: none;
+}
+
+#change-password{
+	background: #fff;
+	padding-top: 20px;
+	margin-top: 20px;
+	border:1px solid #e7e7e7;
+	display: none;
+}
+#change-password .form-group{
+	margin-bottom: 20px;
+}

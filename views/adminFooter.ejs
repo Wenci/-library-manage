@@ -1,0 +1,10 @@
+
+<% if(typeof js != "undefined"){ 
+	for(var i = 0; i<js.length;i++){
+	%>
+
+	<script type="text/javascript" src="../build/<%= js[i] %>"></script>
+
+<%}}%>
+</body>
+</html>

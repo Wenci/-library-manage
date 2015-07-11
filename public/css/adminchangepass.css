@@ -1,0 +1,85 @@
+.person-box{
+	margin-top: 75px;
+}
+.left-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	box-shadow: 0 0 3px #333;
+
+}
+.left-nav>li{
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.left-nav>li.active{
+	background: #0767c8;
+	color: #fff;
+}
+.left-nav>li:hover{
+	background: #4A88C7;
+	color: #fff;
+}
+
+.person-title{
+	padding-left: 5px;
+	border-bottom: 2px solid #0767c8;
+	font-size: 14px;
+	font-weight: 600;
+	height: 45px;
+	line-height: 45px;
+}
+
+.right-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	margin-top: 10px
+}
+.right-nav>li{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	background: #fff;
+	font-weight: 600;
+	border:1px solid #e7e7e7;
+	cursor: pointer;
+}
+.right-nav>li:hover{
+	background: #efefef;
+}
+
+.edit{
+	color: #0767c8;
+}
+.right-nav>li:hover .edit{
+	color:#333;
+	text-decoration: none;
+}
+.right-nav>li .row{
+	padding-left: 10px;
+	padding-right:10px;
+}
+.right-nav li input{
+	height: 30px;
+ 	margin-top: 5px;
+}
+.input{
+	display: none;
+}
+
+#change-password{
+	background: #fff;
+	padding-top: 20px;
+	margin-top: 50px;
+	border:1px solid #e7e7e7;
+}
+#change-password .form-group{
+	margin-bottom: 20px;
+}

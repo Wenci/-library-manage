@@ -1,0 +1,35 @@
+{
+	"appenders":[
+		{"type":"console"},
+		{"type":"dateFile",
+		 "filename":"./logs/dateFileLogs/all/all.log",
+		 "pattern":"-yyyy-MM-dd",
+		 "alwaysIncludePattern":"true",
+		 "maxLogSize":"2048",
+		 "backups":"1024",
+		 "category": "all"
+		},
+		{"type":"dateFile",
+		 "filename":"./logs/dateFileLogs/info/info.log",
+		 "pattern":"-yyyy-MM-dd",
+		 "alwaysIncludePattern":"true",
+		 "maxLogSize":"2048",
+		 "backups":"1024",
+		 "category": "info"
+		},
+		{"type":"dateFile",
+		 "filename":"./logs/dateFileLogs/error/error.log",
+		 "pattern":"-yyyy-MM-dd",
+		 "alwaysIncludePattern":"true",
+		 "maxLogSize":"2048",
+		 "backups":"1024",
+		 "category": "err"
+		}
+	],
+	"replaceConsole": "true",
+	"levels": {
+		"all":"ALL",
+		"info":"INFO",
+		"err":"ERROR"
+	}
+}
